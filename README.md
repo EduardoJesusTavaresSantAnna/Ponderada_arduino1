@@ -17,7 +17,7 @@ Nesta primeira etapa, o objetivo é programar o LED interno do Arduino para pisc
 ---
 
 #### Código Fonte
-```
+```c
 //Aqui fazemos as configurações iniciais para exeução.
 void setup() {
   // No caso, estamos definindo que o Led com um "L" ao lado será nossa saída o "OUTPUT".
@@ -37,14 +37,21 @@ void loop() {
 ---
 
 #### Fotos do IDE e do arduino
-```
-Posicione aqui as fotos
-```
+
+![Tela do Arduino IDE com o código](images/TelaIDE.png)
+*Figura 1 – Tela do Arduino IDE com o mesmo código já mostrado*
+
+![Arduino não Funcionando](images/Arduino-off.jpg)
+*Figura 2 – O arduino com o led apagado, aguardando o tempo de delay*
+
+![Arduino Funcionando](images/Arduino-on.jpg) 
+*Figura 3 – O arduino com o led ligado, aguardando o tempo de delay*
+
+---
 
 #### Vídeos do arduino funcionando
-```
-Posicione aqui o vídeo de funcionamento
-```
+
+[Assista ao vídeo de demonstração](images\vídeo_arduino.mp4)
 
 ---
 
@@ -54,7 +61,7 @@ Posicione aqui o vídeo de funcionamento
 Nesta parte mudamos nosso obejtivos, agora queremos fazer o led externo piscar. Para que isso seja possível usarei o simulador do Tikercad para entender o circuito que utilizarei e depois farei no arduino.
 
 #### Código Fonte
-```
+```c
 void setup() {
   //No caso dessa parte utilizarei a porta 13
   pinMode (13, OUTPUT);
@@ -69,8 +76,11 @@ void loop() {
 ```
 
 #### Simulação no Tikercad
-```
-posicionar print do tikercad
-```
 
----
+![Tela do Tinkercad com o led desligado](images/Tikercad-Off.png)
+*Figura 4 - Tela do Tinkercad para simular o arduino com uma protoboard com o led desligado*
+
+![Tela do Tinkercad com o led ligado](images/Tikercad-On.png)
+*Figura 5 - Tela do Tinkercad para simular o arduino com uma protoboard com o led ligado*
+
+
